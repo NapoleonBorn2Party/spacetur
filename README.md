@@ -4,7 +4,7 @@ Checkpoint 3 da matéria de Responsive Web Development
 - O CP3 será realizado off-line, para entrega;
 - A avaliação será realizada em grupo (obrigatório o grupo do challenge);
 - Todos os integrantes devem contribuir;
-- Não é permitido utilizar frameworks (frameworkssão qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta). <br/>
+- Não é permitido utilizar frameworks (frameworks são qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta). <br/>
 Obs: Bibliotecas de ícones e fontes estão liberadas.
 # Objetivo
 - [ ] Criar um mini projeto sobre TURISMO ESPACIAL;
@@ -15,7 +15,7 @@ Obs: Bibliotecas de ícones e fontes estão liberadas.
 - [ ] Crie um arquivo css chamado estilo.css
 - [ ] Crie um arquivo js chamado script.js
 - O projeto se baseia em uma página que trata de turismo espacial, bem no estilo Elon Musk de ser. As pessoas poderão viajar até o espaço e ter uma visão da terra;
-- A página tem uma função de orientação e de captação de usuários, então além do visual agradávela página de possuir um formulário para cadastrar usuários que estejam inclinados a realizar o tour;
+- A página tem uma função de orientação e de captação de usuários, então além do visual agradável a página deve possuir um formulário para cadastrar usuários que estejam inclinados a realizar o tour;
 - As informações que devem ser captadas são:
   - [ ] Nome e sobrenome
   - [ ] Email
@@ -24,8 +24,8 @@ Obs: Bibliotecas de ícones e fontes estão liberadas.
   - [ ] Data de nascimento
   - [ ] Campo mensagem com o rótulo "_Qual a sua motivação para a viagem?_";
   - [ ] O formulário não pode ser submetido com nenhum campo vazio;
-  - [ ] Cada campo deve ser criado com seu tipo específicode dado;
-  - [ ] Ao serem submetidas as informações, estando tudo ok, uma mensagem de alerta deve ser emitida informando que os dados foram cadastrados com sucesso e a navegaçãodeve ser direcionada para a página inicial (isso se consegue colocando a página de destino no action);
+  - [ ] Cada campo deve ser criado com seu tipo específico de dado;
+  - [ ] Ao serem submetidas as informações, estando tudo ok, uma mensagem de alerta deve ser emitida informando que os dados foram cadastrados com sucesso e a navegação deve ser direcionada para a página inicial (isso é feito colocando a página de destino no action);
 - [ ] O formulário deve ser acessado através de um item de menu chamado "_Contato_";
 - [ ] O seu dever é criar a página e chegar em um resultado próximo ou igual ao da imagem abaixo:
 ![Imagem de referência](./img/referencia.png)
@@ -37,14 +37,14 @@ Obs: Bibliotecas de ícones e fontes estão liberadas.
 - (25 Pontos) Estilização CSS3;
 - (30 Pontos) Controle com Javascript. 
 ## Estrutura
-- Container: Definir uma `<div>` como container principal. Determine esse elemento como classe ou id de nome “container”(*) para esse elemento. Este deve conter todos os outros elementos;
+- Container: Definir uma `<div>` como container principal. Determine esse elemento como classe ou id de nome "_container_"(*) para esse elemento. Este deve conter todos os outros elementos;
 
 - Layout: O layout deve ser dividido em 3 (três) áreas:
-  - Cabeçalho (Determine a classe “cabecalho”(*) para o `<header>`);
-  - Banner (Determine a classe “banner”(*) para o `<section>`);
-  - Rodapé(Determine a classe “rodape”(*) para o `<footer>`).
+  - Cabeçalho (Determine a classe "_cabecalho_"(*) para o `<header>`);
+  - Banner (Determine a classe "_banner_"(*) para o `<section>`);
+  - Rodapé(Determine a classe "_rodape_"(*) para o `<footer>`).
 
-- Cabeçalho: Deve ser adicionada uma imagem (logo-spacetours.png) e identificada com a classe “logo”. Adicione um elemento semântico e identifique este com a classe de "_menu_", coloque uma lista com os seguintes itensdentro deste elemento:
+- Cabeçalho: Deve ser adicionada uma imagem (logo-spacetours.png) e identificada com a classe "_logo_". Adicione um elemento semântico e identifique este com a classe de "_menu_", coloque uma lista com os seguintes itens dentro deste elemento:
   - Home
   - Sobre
   - Pacotes
@@ -54,10 +54,10 @@ Cada item deve ser um hyperlink para (#).
 - Banner: Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma `<div>` e identificar esta com a classe "_box_", ela deve conterum `<h1>`, um `<p>` e um `<a>`, respectivamente:
   - `<h1>` = "TERRA: SUA LINDA!"
   - `<p>`  = "Experimente a mudança de paradigma de conhecer o nosso planeta azul de um novo ponto de vista."
-  - `<a>`  = "Leia depoimentos." (O hyperlink deve apontar para (#) )
+  - `<a>`  = "Leia depoimentos." (O hyperlink deve apontar para (#))
 
 - Rodapé: Para o rodapé nós vamos ter um `<p>`, um `<small>` e um `<a>` com os respectivos textos onde o `<small>` deve ter a classe "_creditos_".
-  `<p>` = "2021.Design Responsivo."
+  `<p>` = "2021. Design Responsivo."
   A palavra "_Criado por SEU NOME_" deve estar entre uma `<small>` e o nome Alexandre Carlos deve estar entre um `<a>` onde o hyperlink deve apontar para (#).
 
 ## Apresentação
@@ -66,7 +66,7 @@ Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css.
 
 - Para o body determine os seguintes estilos:
   - [ ] Tamanho do texto: 12px;
-  - [ ] Familia da fonte: Helvetica Neue, Helvetica, Arialousem serifa;
+  - [ ] Familia da fonte: Helvetica Neue, Helvetica, Arial ou sem serifa;
   - [ ] Cor do texto #444.
 
 - Para a classe container determine os seguintes estilos:
@@ -150,6 +150,7 @@ Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css.
 
 # Comportamento
 - [ ] Todo o trabalho aqui deve ser realizado no arquivo de scripts externo script.js <br/>
-A função principal do Javascript é controlar o formulário, podendo se estendera outros comportamentos da página. <br/>
-Controlar o envio de dados do formulário, ou seja, quando usuário submeter os dados, realizar a verificação doscampos. OBS: Deve ser dada permissão ao usuário alecarlosjesus a esse repositório.
+A função principal do Javascript é controlar o formulário, podendo se estender a outros comportamentos da página. <br/>
+Controlar o envio de dados do formulário, ou seja, quando usuário submeter os dados, realizar a verificação dos campos. <br/>
+OBS: Deve ser dada permissão ao usuário alecarlosjesus a esse repositório.
 - [ ] Compactar o repositório do projeto juntamente com um arquivo .txt com o nome do grupo e nome de cada integrante e rm e submeter para o TEAMs.
