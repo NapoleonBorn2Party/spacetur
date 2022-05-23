@@ -49,7 +49,7 @@ Obs: Bibliotecas de ícones e fontes estão liberadas.
   - Sobre
   - Pacotes
   - Contato
-Cada item deve ser um hyperlink para (#).
+<br/>Cada item deve ser um hyperlink para (#).
 
 - Banner: Neste elemento deve ser criada uma imagem (banner.jpg). Abaixo dessa imagem devemos criar uma `<div>` e identificar esta com a classe "_box_", ela deve conterum `<h1>`, um `<p>` e um `<a>`, respectivamente:
   - `<h1>` = "TERRA: SUA LINDA!"
