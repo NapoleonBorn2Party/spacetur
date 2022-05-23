@@ -4,7 +4,8 @@ Checkpoint 3 da matéria de Responsive Web Development
 - O CP3 será realizado off-line, para entrega;
 - A avaliação será realizada em grupo (obrigatório o grupo do challenge);
 - Todos os integrantes devem contribuir;
-- Não é permitido utilizar frameworks (frameworkssão qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta). Obs: Bibliotecas de ícones e fontes estãoliberadas;
+- Não é permitido utilizar frameworks (frameworkssão qualquer biblioteca adicionada ao projeto que agregue algum tipo de característica já pronta). <br/>
+Obs: Bibliotecas de ícones e fontes estão liberadas.
 # Objetivo
 - [ ] Criar um mini projeto sobre TURISMO ESPACIAL;
 - [ ] Criar um repositório no github de nome spacetur, adicioneum arquivo readme e coloque estas instruções no arquivo;
