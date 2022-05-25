@@ -62,91 +62,91 @@ Obs: Bibliotecas de ícones e fontes estão liberadas.
 
 ## Apresentação
 Todo o trabalho aqui deve ser realizado no arquivo de css externo style.css.
-- [ ] Faça o apontamento do arquivo css no HTML.
+- [x] Faça o apontamento do arquivo css no HTML.
 
 - Para o body determine os seguintes estilos:
-  - [ ] Tamanho do texto: 12px;
-  - [ ] Familia da fonte: Helvetica Neue, Helvetica, Arial ou sem serifa;
-  - [ ] Cor do texto #444.
+  - [x] Tamanho do texto: 12px;
+  - [x] Familia da fonte: Helvetica Neue, Helvetica, Arial ou sem serifa;
+  - [x] Cor do texto #444.
 
 - Para a classe container determine os seguintes estilos:
-  - [ ] Largura máxima: 1128px.
+  - [x] Largura máxima: 1128px.
 
 - Para todos os elementos `<a>` determine os seguintes estilos:
-  - [ ] Cor do texto #00ccff;
-  - [ ] Retire o estilo de hyperlink de todos os elementos;
-  - [ ] Tamanho do texto: 12px.
+  - [x] Cor do texto #00ccff;
+  - [x] Retire o estilo de hyperlink de todos os elementos;
+  - [x] Tamanho do texto: 12px.
 
 - Para todos os parágrafos determine os seguintes estilos:
-  - [ ] Tamanho do texto: 20px.
+  - [x] Tamanho do texto: 20px.
 
 - Para todos os elementos `<a>` determine os seguintes estilos:
-  - [ ] Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+  - [x] Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
 
 - Para todas as imagens determine os seguintes estilos:
-  - [ ] Largura máxima de 100%.
+  - [x] Largura máxima de 100%.
 
 - Para a classe cabecalho determine os seguintes estilos:
-  - [ ] Largura: 100%;
-  - [ ] Altura: 48px;
-  - [ ] Margem do topo: 40px;
-  - [ ] Margem do rodapé: 40px.
+  - [x] Largura: 100%;
+  - [x] Altura: 48px;
+  - [x] Margem do topo: 40px;
+  - [x] Margem do rodapé: 40px.
  
 - Para a classe logo determine os seguintes estilos:
-  - [ ] Faça o elemento flutuar para a esquerda.
+  - [x] Faça o elemento flutuar para a esquerda.
 
 - Para a classe menu determine os seguintes estilos:
-  - [ ] Faça o elemento flutuar para a direita.
+  - [x] Faça o elemento flutuar para a direita.
 
 - Para os items da lista determine os seguintes estilos:
-  - [ ] Faça com que a lista flutue para a direita;
-  - [ ] Coloque os itens em linha;
-  - [ ] Tamanho do texto: 14px;
-  - [ ] Margem esquerda: 24px;
-  - [ ] Margem topo 12px;
-  - [ ] Retire o estilo de lista.
+  - [x] Faça com que a lista flutue para a direita;
+  - [x] Coloque os itens em linha;
+  - [x] Tamanho do texto: 14px;
+  - [x] Margem esquerda: 24px;
+  - [x] Margem topo 12px;
+  - [x] Retire o estilo de lista.
 
 - Para os hyperlinks dos itens da lista determine os seguintes estilos:
-  - [ ] Coloque a fonte do texto em 20px;
-  - [ ] Coloque a cor do texto como #999.
+  - [x] Coloque a fonte do texto em 20px;
+  - [x] Coloque a cor do texto como #999.
 
 - Para a classe banner determine os seguintes estilos:
-  - [ ] Altura 450px;
-  - [ ] Margem rodapé 35px;
-  - [ ] Posição relativa.
+  - [x] Altura 450px;
+  - [x] Margem rodapé 35px;
+  - [x] Posição relativa.
 
 - Para a classe caixa determine os seguintes estilos:
-  - [ ] Largura 42.5px;
-  - [ ] Preenchimento superior e inferior de 30px e direito e esquerdo de 48px;
-  - [ ] Posição absoluta;
-  - [ ] Posição top 48px;
-  - [ ] Fundo com cor rgba(0,0,0,0.5), utilize o sistema de cores numérico RGBA.
+  - [x] Largura 42.5px;
+  - [x] Preenchimento superior e inferior de 30px e direito e esquerdo de 48px;
+  - [x] Posição absoluta;
+  - [x] Posição top 48px;
+  - [x] Fundo com cor rgba(0,0,0,0.5), utilize o sistema de cores numérico RGBA.
 
 - Para os parágrafos descendentes de caixa determine os seguintes estilos:
-  - [ ] Tamanho do texto em 20px;
-  - [ ] Cor do texto #fff.
+  - [x] Tamanho do texto em 20px;
+  - [x] Cor do texto #fff.
 
 - Para o elemento `<h1>` determine os seguintes estilos:
-  - [ ] Margem topo 0;
-  - [ ] Margem rodapé 0;
-  - [ ] Tamanho do texto 48px;
-  - [ ] Espessura da fonte de 200;
-  - [ ] Cor do texto #fff.
+  - [x] Margem topo 0;
+  - [x] Margem rodapé 0;
+  - [x] Tamanho do texto 48px;
+  - [x] Espessura da fonte de 200;
+  - [x] Cor do texto #fff.
 
 - Para a classe rodape determine os seguintes estilos:
-  - [ ] Largura 100%;
-  - [ ] Margem rodapé 30px;
-  - [ ] Faça o elemento flutuar para a esquerda;
-  - [ ] Tamanho do texto em 30px.
+  - [x] Largura 100%;
+  - [x] Margem rodapé 30px;
+  - [x] Faça o elemento flutuar para a esquerda;
+  - [x] Tamanho do texto em 30px.
 
 - Para os parágrafos descendentes da classe rodape determine os seguintes estilos:
-  - [ ] Margem rodapé 0.
+  - [x] Margem rodapé 0.
 
 - Para os `<small>` descendentes da classe rodape determine os seguintes estilos:
-  - [ ] Tamanho do texto em 18px.
+  - [x] Tamanho do texto em 18px.
  
 - Para os hyperlinks descendentes da classe footer determine os seguintes estilos:
-  - [ ] Tamanho do texto em 1
+  - [x] Tamanho do texto em 1
 
 # Comportamento
 - [ ] Todo o trabalho aqui deve ser realizado no arquivo de scripts externo script.js <br/>
