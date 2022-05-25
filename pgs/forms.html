@@ -8,32 +8,64 @@
 		<link rel="stylesheet" href="../css/style.css" />
 		<script src="../js/script.js" defer></script>
 	</head>
-	<body>
-		<div>
-			<form>
-				<fieldset>
-					<legend>Contato</legend>
-					<label for="nome">Nome:</label>
-					<input type="text" id="nome" name="nome" />
-					<label for="sobrenome">Sobrenome:</label>
-					<input type="text" id="sobrenome" name="sobrenome" />
-					<label for="email">Email:</label>
-					<input type="text" id="email" name="email" />
-					<label for="cpf">CPF:</label>
-					<input type="text" id="cpf" name="cpf" />
-					<label for="genero">Gênero:</label>
-					<select name="genero" id="genero">
-						<option disabled selected style="display: none" value=""></option>
-						<option value="m">Masculino</option>
-						<option value="f">Feminino</option>
-						<option value="o">Outro</option>
-						<option value="ni">Prefiro não informar</option>
-					</select>
-					<label for="nascimento">Data de nascimento:</label>
-					<input type="date" />
-					<label for="motivacao">Qual sua motivação para a viagem?</label>
-					<input type="text" id="motivacao" name="motivacao" placeholder="Conte pra gente por que você quer ir ao espaço" />
-				</fieldset>
+	<body class="body-forms">
+		<div class="container-forms">
+			<div class="titulo">Contato</div>
+			<form action="#">
+				<div class="usr-infos">
+					<div class="input-box">
+						<span class="info">Nome:</span>
+						<input type="text" placeholder="Coloque seu nome" required>
+					</div>
+					<div class="input-box">
+						<span class="info">Sobrenome:</span>
+						<input type="text" placeholder="Coloque seu sobrenome" required>
+					</div>
+					<div class="input-box">
+						<span class="info">E-mail:</span>
+						<input type="text" placeholder="Coloque seu email" required>
+					</div>
+					<div class="input-box">
+						<span class="info">CPF:</span>
+						<input type="text" placeholder="Coloque seu CPF" required>
+					</div>
+					<div class="input-box">
+						<span class="info">Qual sua motivação para a viagem?</span>
+						<input type="text" placeholder="Conte pra gente por que você quer ir ao espaço!" required>
+					</div>
+					<div class="input-box">
+						<span class="info">Data de Nascimento:</span>
+						<input type="date" placeholder="DD/MM/AAAA" required>
+					</div>
+				</div>
+				<div class="gender-details">
+					<input type="radio" name="genero" id="dot-1">
+					<input type="radio" name="genero" id="dot-2">
+					<input type="radio" name="genero" id="dot-3">
+					<input type="radio" name="genero" id="dot-4">
+					<span class="opcao-genero">Gênero</span>
+					<div class="category">
+						<label for="dot-1">
+							<span class="dot one"></span>
+							<span class="gender">Masculino</span>
+						</label>
+						<label for="dot-2">
+							<span class="dot two"></span>
+							<span class="gender">Feminino</span>
+						</label>
+						<label for="dot-3">
+							<span class="dot three"></span>
+							<span class="gender">Outro</span>
+						</label>
+						<label for="dot-4">
+							<span class="dot four"></span>
+							<span class="gender">Prefiro não informar</span>
+						</label>
+					</div>
+				</div>
+				<div class="button">
+					<input type="submit" value="Enviar">
+				</div>
 			</form>
 		</div>
 	</body>
