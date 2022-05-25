@@ -41,7 +41,7 @@
 	justify-content: space-between;
 	margin: 20px 0 12px 0;
 }
-form .usr-infos .input-box{
+form .usr-infos .input-box {
 	margin-bottom: 15px;
 	width: calc(100%/ 2 - 20px);
 }
@@ -59,10 +59,26 @@ form .usr-infos .input-box{
 	padding-left: 15px;
 	font-size: 15px;
 }
-.usr-infos .input-box input:focus,
-.usr-infos .input-box input:valid{
-	border-color: #9b59b6;
+form .usr-infos .input-box1 {
+	margin-bottom: 15px;
+	width: calc(100%/ 2 - 20px);
 }
+.usr-infos .input-box1 .info{
+	display: block;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.usr-infos .input-box1 input{
+	height: 80px;
+	width: 213%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+
 form .gender-details .opcao-genero{
 	font-size: 20px;
 	font-weight: 500;
@@ -108,7 +124,6 @@ form .button input{
 	font-size: 20px;
 	font-weight: 500;
 	background:linear-gradient(135deg, #71b7e6, #9b59b6)
-
 }
 
 
