@@ -104,12 +104,6 @@ footer a {
 	font-size: 1;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .body-forms {
 	display: flex;
 	height: 100vh;
